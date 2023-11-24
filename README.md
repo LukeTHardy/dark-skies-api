@@ -2,7 +2,7 @@
 
 ## Running the server:
 1. Clone this repo
-   ```git clone [ssh link]```
+   `git clone git@github.com:LukeTHardy/dark-skies-api.git`
 2. Install JSON-server
    ```npm install json-server```
 3. Navigate to repo directory
