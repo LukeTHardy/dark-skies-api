@@ -1,0 +1,591 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "me@me.com",
+      "name": "Me"
+    },
+    {
+      "id": 2,
+      "email": "user2@example.com",
+      "name": "Jane Smith"
+    },
+    {
+      "id": 3,
+      "email": "user3@example.com",
+      "name": "Bob Johnson"
+    },
+    {
+      "id": 4,
+      "email": "user4@example.com",
+      "name": "Alice Brown"
+    },
+    {
+      "email": "user5@example.com",
+      "name": "joe shmo",
+      "id": 5
+    },
+    {
+      "email": "user6@example.com",
+      "name": "user6",
+      "id": 6
+    },
+    {
+      "email": "rando@testing.com",
+      "name": "Rando",
+      "id": 7
+    },
+    {
+      "email": "hello@testing.com",
+      "name": "luke",
+      "id": 8
+    }
+  ],
+  "locations": [
+    {
+      "name": "Bladon Springs State Park",
+      "imageUrl": "https://alabama-travel.s3.amazonaws.com/partners-uploads/photo/image/5af1dc973a7e6f20ef000103/bladon_springs_bladon_springs_state_park_7d_e2_65s.jpg",
+      "city": "Silas",
+      "stateId": 1,
+      "address": "3921 Bladon Rd",
+      "latitude": 31.73503762053172,
+      "longitude": -88.19320908392403,
+      "bortle": 2,
+      "comments": "",
+      "userId": 5,
+      "id": 1
+    },
+    {
+      "name": "Big Hill Pond State Park",
+      "imageUrl": "https://img-aws.ehowcdn.com/700x/www.onlyinyourstate.com/wp-content/uploads/2020/08/Screen-Shot-2020-08-13-at-4.32.01-PM.png",
+      "city": "Pocahontas",
+      "stateId": 42,
+      "address": "1435 John Howell Rd",
+      "latitude": 35.06258911846766,
+      "longitude": -88.71907252150682,
+      "bortle": 3,
+      "comments": "",
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "id": 5,
+      "name": "Great Smoky Mountains National Park",
+      "imageUrl": "https://paddywax.com/cdn/shop/files/Great_Smoky_Mountains_Image.jpg?v=1660150373&width=1500",
+      "city": "Gatlinburg",
+      "stateId": 42,
+      "address": "107 Park Headquarters Rd",
+      "latitude": 35.687424453221375,
+      "longitude": -83.53677667247796,
+      "bortle": 3,
+      "comments": "Great visibility from the east side of the main campground",
+      "userId": 1
+    },
+    {
+      "name": "Meeman-Shelby Forest State Park",
+      "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/gray/ISL2OGIZWFBIZPHAWUYOJ6NGBQ.jpg",
+      "city": "Millington",
+      "stateId": 42,
+      "address": "910 Riddick Rd",
+      "latitude": 35.344104755874525,
+      "longitude": -90.03273574671013,
+      "bortle": 0,
+      "comments": "",
+      "userId": 1,
+      "id": 7
+    },
+    {
+      "name": "Mousetail Landing State Park",
+      "imageUrl": "https://cdn.elebase.io/f73a5e12-7a94-4da0-96b6-40fd97435fd2/3e03c6a5-ed6a-445d-8b11-665e91628dad-tena1a67fbdf8d687e52.jpg?w=680&h=382&fit=crop&rot=auto&dpr=2&q=75",
+      "city": "Linden",
+      "stateId": 42,
+      "address": "3 Campground Rd",
+      "latitude": 35.66881647582077,
+      "longitude": -88.00761132765852,
+      "bortle": 3,
+      "comments": "",
+      "userId": 1,
+      "id": 8
+    },
+    {
+      "id": 9,
+      "name": "Obed Wild & Scenic River National Park",
+      "imageUrl": "https://npca.s3.amazonaws.com/images/10109/4c9cd4f0-5c83-4833-ac03-9e7c5b5302f1-banner.jpg?1460138846",
+      "city": "Wartburg",
+      "stateId": 42,
+      "address": "208 Maiden St",
+      "latitude": 36.10637677061086,
+      "longitude": -84.5979441625772,
+      "bortle": 2,
+      "comments": "It was great but now I have 100 chigger bites so bring deert",
+      "userId": 1
+    },
+    {
+      "name": "Pickett CCC Memorial State Park",
+      "imageUrl": "https://www.tnmagazine.org/wp-content/uploads/2020/12/tnmg_image009-4.jpg",
+      "city": "Jamestown",
+      "stateId": 42,
+      "address": "4605 Pickett Park Hwy",
+      "latitude": 36.55241469368762,
+      "longitude": -84.79684800673246,
+      "bortle": 2,
+      "comments": "",
+      "userId": 1,
+      "id": 10
+    },
+    {
+      "name": "Sgt. Alvin York State Park",
+      "imageUrl": "https://live.staticflickr.com/6011/5937040941_2890587500_b.jpg",
+      "city": "Pall Mall",
+      "stateId": 42,
+      "address": "2609 N York Hwy",
+      "latitude": 36.54162544975853,
+      "longitude": -84.95906830488553,
+      "bortle": 3,
+      "comments": "",
+      "userId": 2,
+      "id": 11
+    },
+    {
+      "name": "Blue Springs State Park",
+      "imageUrl": "https://www.alapark.com/sites/default/files/styles/default/public/2023-07/bspoolinfall.jpg?itok=JOi-ZqoH",
+      "city": "Clio",
+      "stateId": 1,
+      "address": "2595 AL-10",
+      "latitude": 31.6641634059538,
+      "longitude": -85.50768312931574,
+      "bortle": 3,
+      "comments": "",
+      "userId": 1,
+      "id": 12
+    },
+    {
+      "id": 13,
+      "name": "Glacier Bay National Park",
+      "imageUrl": "https://www.westmarkhotels.com/wp-content/uploads/turnagain-arm-beach-1200-shutterstock_513498811.jpg",
+      "city": "Pleasant Camp",
+      "stateId": 2,
+      "address": "",
+      "latitude": 58.711127198391665,
+      "longitude": -136.86127833120963,
+      "bortle": 1,
+      "comments": "We camped on the beach and saw the Milky way easily!",
+      "userId": 1
+    },
+    {
+      "id": 14,
+      "name": "Chilkat Bald Eagle Reserve",
+      "imageUrl": "https://www.travelalaska.com/sites/default/files/2021-12/Destinations_ParksPublicLands_Chilkat%20Bald%20Eagle%20Preserve_Hero_0.jpg",
+      "city": "Haines",
+      "stateId": 2,
+      "address": "Haines Rd",
+      "latitude": 59.377541605758765,
+      "longitude": -135.83743212621218,
+      "bortle": 1,
+      "comments": "It's great",
+      "userId": 1
+    },
+    {
+      "name": "Alamo Lake State Park",
+      "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/cd/bd/72/alamo-lake-state-park.jpg?w=1200&h=-1&s=1",
+      "city": "Wenden",
+      "stateId": 3,
+      "address": "Alamo Rd",
+      "latitude": 34.24206294932432,
+      "longitude": -113.57324663141979,
+      "bortle": 2,
+      "comments": "",
+      "userId": 1,
+      "id": 15
+    },
+    {
+      "name": "Grand Canyon National Parkl",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Dawn_on_the_S_rim_of_the_Grand_Canyon_%288645178272%29.jpg",
+      "city": "Grand Canyon Village",
+      "stateId": 3,
+      "address": "S Entrance Rd",
+      "latitude": 36.05937527102727,
+      "longitude": -112.1091504890055,
+      "bortle": 1,
+      "comments": "",
+      "userId": 1,
+      "id": 16
+    },
+    {
+      "name": "Bledsoe Creek State Park",
+      "imageUrl": "https://cumberlandriverbasin.org/wp-content/uploads/2022/01/5417718256_0335659b8e_o-scaled.jpg",
+      "city": "Gallatin",
+      "stateId": 42,
+      "address": "400 Zieglers Fort Rd",
+      "latitude": 36.37722772026386,
+      "longitude": -86.35556169189455,
+      "bortle": 4,
+      "comments": "",
+      "userId": 1,
+      "id": 17
+    },
+    {
+      "name": "Fall Creek Falls State Park",
+      "imageUrl": "https://tnstateparks.com/assets/images/content-images/10/fcf-1__full.jpg",
+      "city": "Spencer",
+      "stateId": 42,
+      "address": "2009 Village Camp Rd",
+      "latitude": 35.65520445993583,
+      "longitude": -85.35598782140383,
+      "bortle": 3,
+      "comments": "",
+      "userId": 1,
+      "id": 18
+    },
+    {
+      "name": "Harrison Bay State Park",
+      "imageUrl": "https://www.roverpass.com/system/pictures/images/000/035/469/full/TS52.png?1491975935",
+      "city": "Harrison",
+      "stateId": 42,
+      "address": "7855 Bay Marina Circle",
+      "latitude": 35.16870209198745,
+      "longitude": -85.12113261853068,
+      "bortle": 3,
+      "comments": "",
+      "userId": 1,
+      "id": 19
+    },
+    {
+      "name": "Moon Lake State Recreation Site",
+      "imageUrl": "https://themilepost.com/wp-content/uploads/2020/10/p-228-Alaska-Highway-2019-MP-1331.9-Moon-Lake-SRS-scaled.jpg",
+      "city": "Tanacross",
+      "stateId": 2,
+      "address": "Moon Lake State Recreation Site Rd",
+      "latitude": 63.37330547029589,
+      "longitude": -143.54362754778154,
+      "bortle": 1,
+      "comments": "Dark af",
+      "userId": 1,
+      "id": 20
+    },
+    {
+      "name": "Beckley Creek Park",
+      "imageUrl": "https://theparklands.org/app/uploads/2020/12/Fishermans-Trail-Featured-Image.jpg",
+      "city": "Louisville",
+      "stateId": 17,
+      "address": "1411 Beckley Creek Pkwy",
+      "latitude": 38.21869282644709,
+      "longitude": -85.47522338061584,
+      "bortle": 0,
+      "comments": "",
+      "userId": 1,
+      "id": 21
+    },
+    {
+      "name": "Blackacre State Nature Preserve",
+      "imageUrl": "https://i0.wp.com/visitblackacre.org/wp-content/uploads/2021/01/waterfall-trail-1.jpg?fit=1024%2C768&ssl=1",
+      "city": "Louisville",
+      "stateId": 17,
+      "address": "3200 Tucker Station Rd",
+      "latitude": 38.19291493909356,
+      "longitude": -85.52443513550952,
+      "bortle": 0,
+      "comments": "",
+      "userId": 1,
+      "id": 22
+    },
+    {
+      "name": "Buckhorn Lake State Resort Park",
+      "imageUrl": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/116122656.jpg?k=a3995196daa97797838ae621eb3a0a032eb9e373393bf0d3465f84ca1ef3abf4&o=&hp=1",
+      "city": "Buckhorn",
+      "stateId": 17,
+      "address": "4441 KY-1883",
+      "latitude": 37.30624185113233,
+      "longitude": -83.44451253231061,
+      "bortle": 3,
+      "comments": "",
+      "userId": 1,
+      "id": 23
+    },
+    {
+      "name": "Daniel Boone National Forest",
+      "imageUrl": "https://www.tripsavvy.com/thmb/HMpQCGpASDRIKxj4w8DzlBFtssY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/cumberland-falls-daniel-boone-national-forest-359746d00e4a40c18be53de4fcb5e747.jpg",
+      "city": "McKee",
+      "stateId": 17,
+      "address": "209 State Highway 290",
+      "latitude": 37.4180774473802,
+      "longitude": -84.00002177061965,
+      "bortle": 3,
+      "comments": "",
+      "userId": 1,
+      "id": 24
+    },
+    {
+      "name": "Mammoth Cave National Park",
+      "imageUrl": "https://cdn.aarp.net/content/dam/aarp/travel/Domestic/2020/10/1140-mammoth-national-park-hero.jpg",
+      "city": "Mammoth Cave",
+      "stateId": 17,
+      "address": "1 Mammoth Cave Pkwy",
+      "latitude": 37.18751032328766,
+      "longitude": -86.10125942120253,
+      "bortle": 0,
+      "comments": "",
+      "userId": 1,
+      "id": 25
+    }
+  ],
+  "states": [
+    {
+      "id": 1,
+      "name": "Alabama"
+    },
+    {
+      "id": 2,
+      "name": "Alaska"
+    },
+    {
+      "id": 3,
+      "name": "Arizona"
+    },
+    {
+      "id": 4,
+      "name": "Arkansas"
+    },
+    {
+      "id": 5,
+      "name": "California"
+    },
+    {
+      "id": 6,
+      "name": "Colorado"
+    },
+    {
+      "id": 7,
+      "name": "Connecticut"
+    },
+    {
+      "id": 8,
+      "name": "Delaware"
+    },
+    {
+      "id": 9,
+      "name": "Florida"
+    },
+    {
+      "id": 10,
+      "name": "Georgia"
+    },
+    {
+      "id": 11,
+      "name": "Hawaii"
+    },
+    {
+      "id": 12,
+      "name": "Idaho"
+    },
+    {
+      "id": 13,
+      "name": "Illinois"
+    },
+    {
+      "id": 14,
+      "name": "Indiana"
+    },
+    {
+      "id": 15,
+      "name": "Iowa"
+    },
+    {
+      "id": 16,
+      "name": "Kansas"
+    },
+    {
+      "id": 17,
+      "name": "Kentucky"
+    },
+    {
+      "id": 18,
+      "name": "Louisiana"
+    },
+    {
+      "id": 19,
+      "name": "Maine"
+    },
+    {
+      "id": 20,
+      "name": "Maryland"
+    },
+    {
+      "id": 21,
+      "name": "Massachusetts"
+    },
+    {
+      "id": 22,
+      "name": "Michigan"
+    },
+    {
+      "id": 23,
+      "name": "Minnesota"
+    },
+    {
+      "id": 24,
+      "name": "Mississippi"
+    },
+    {
+      "id": 25,
+      "name": "Missouri"
+    },
+    {
+      "id": 26,
+      "name": "Montana"
+    },
+    {
+      "id": 27,
+      "name": "Nebraska"
+    },
+    {
+      "id": 28,
+      "name": "Nevada"
+    },
+    {
+      "id": 29,
+      "name": "New Hampshire"
+    },
+    {
+      "id": 30,
+      "name": "New Jersey"
+    },
+    {
+      "id": 31,
+      "name": "New Mexico"
+    },
+    {
+      "id": 32,
+      "name": "New York"
+    },
+    {
+      "id": 33,
+      "name": "North Carolina"
+    },
+    {
+      "id": 34,
+      "name": "North Dakota"
+    },
+    {
+      "id": 35,
+      "name": "Ohio"
+    },
+    {
+      "id": 36,
+      "name": "Oklahoma"
+    },
+    {
+      "id": 37,
+      "name": "Oregon"
+    },
+    {
+      "id": 38,
+      "name": "Pennsylvania"
+    },
+    {
+      "id": 39,
+      "name": "Rhode Island"
+    },
+    {
+      "id": 40,
+      "name": "South Carolina"
+    },
+    {
+      "id": 41,
+      "name": "South Dakota"
+    },
+    {
+      "id": 42,
+      "name": "Tennessee"
+    },
+    {
+      "id": 43,
+      "name": "Texas"
+    },
+    {
+      "id": 44,
+      "name": "Utah"
+    },
+    {
+      "id": 45,
+      "name": "Vermont"
+    },
+    {
+      "id": 46,
+      "name": "Virginia"
+    },
+    {
+      "id": 47,
+      "name": "Washington"
+    },
+    {
+      "id": 48,
+      "name": "West Virginia"
+    },
+    {
+      "id": 49,
+      "name": "Wisconsin"
+    },
+    {
+      "id": 50,
+      "name": "Wyoming"
+    }
+  ],
+  "favorites": [
+    {
+      "id": 22,
+      "locationId": 5,
+      "userId": 2
+    },
+    {
+      "id": 25,
+      "locationId": 2,
+      "userId": 5
+    },
+    {
+      "id": 30,
+      "locationId": 7,
+      "userId": 5
+    },
+    {
+      "locationId": 8,
+      "userId": 1,
+      "id": 37
+    },
+    {
+      "locationId": 14,
+      "userId": 2,
+      "id": 40
+    },
+    {
+      "locationId": 11,
+      "userId": 2,
+      "id": 41
+    },
+    {
+      "locationId": 9,
+      "userId": 2,
+      "id": 44
+    },
+    {
+      "locationId": 5,
+      "userId": 1,
+      "id": 47
+    },
+    {
+      "locationId": 10,
+      "userId": 7,
+      "id": 48
+    },
+    {
+      "locationId": 1,
+      "userId": 1,
+      "id": 49
+    },
+    {
+      "locationId": 9,
+      "userId": 1,
+      "id": 50
+    }
+  ]
+}
