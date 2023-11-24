@@ -4,8 +4,7 @@
 
 ## Running the server:
 1. Clone this repo in your workspace:
-   ```
-   git clone git@github.com:LukeTHardy/dark-skies-api.git
+   ``` git clone git@github.com:LukeTHardy/dark-skies-api.git
    ```
 2. Install JSON-server:
    ```
